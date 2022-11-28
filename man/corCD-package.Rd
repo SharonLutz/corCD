@@ -1,0 +1,10 @@
+\name{corCD-package}
+\alias{corCD-package}
+\alias{corCD-pkg}
+\docType{package}
+\title{
+\packageTitle{corCD}
+}
+\description{
+\packageDescription{corCD}
+}

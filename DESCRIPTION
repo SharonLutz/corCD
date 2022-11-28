@@ -1,0 +1,9 @@
+Package: corCD
+Type: Package
+Title: Runs the corCD function
+Version: 1.0
+Date: 2022-11-21
+Author: Sharon Lutz, Kirsten Voorhies
+Maintainer: Sharon Lutz <smlutz@hsph.harvard.edu>
+Description: This package runs the corCD function, which compares results from adjusted and unadjusted models when running functions from the following packages: "BiDirectCausal" and "MRCD".
+License: GPL-2
