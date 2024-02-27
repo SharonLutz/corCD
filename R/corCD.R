@@ -629,7 +629,7 @@ function(n=100000, nSNPx = 10, MAFx = c(rep(0.5,  10)), nSNPy = 10, MAFy = c(rep
     if(table.sv){
       write.table(matR, file=paste0(plot.name,"_seed",SEED,"_matR.txt"), quote=F, row.names=T)
       write.table(corGX, file=paste0(plot.name,"_seed",SEED,"_corGX.txt"), quote=F, row.names=F, col.names = F)
-      write.table(corGX, file=paste0(plot.name,"_seed",SEED,"_corGY.txt"), quote=F, row.names=F, col.names = F)
+      write.table(corGY, file=paste0(plot.name,"_seed",SEED,"_corGY.txt"), quote=F, row.names=F, col.names = F)
       
     }
     
