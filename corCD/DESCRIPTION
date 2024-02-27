@@ -1,0 +1,9 @@
+Package: corCD
+Type: Package
+Title: runs the corCD function
+Version: 1.0
+Date: 2024-02-26
+Author: Sharon Lutz, Kirsten Voorhies
+Maintainer: Sharon Lutz <smlutz@hsph.harvard.edu>
+Description: The corCD package runs the corCD function which, using simulations, examines the cases returned by different approaches (CD-Ratio, CD-GLS, CD-Egger, CDcML, and MRcML) under different conditions when the summary statistics are from a multiple linear regression v. a simple linear regression.
+License: GPL-2
