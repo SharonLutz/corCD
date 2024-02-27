@@ -36,13 +36,10 @@ example1$corGX # vector of difference in correlation of cor(X, GX[,1) when model
 example1$corGY # vector of difference in correlation of cor(Y, GX[,1) when model effect sizes adjusted for covariates vs. did not adjust for covariates
 ```
 
-To get the proportion of simulations that return case 1, case 2, case 3 for each method methods when using the unadjusted and adjusted models, we can divide the matrix example1$matR by the number of simulations run, in this example 10.
+To get the proportion of simulations that return case 1, case 2, and case 3 for each method when using the unadjusted and adjusted models, we can divide the matrix example1$matR by the number of simulations run, in this example 10.
 
 ```
-cbind(example1$matR/50) # proportion of simulations returning the different cases for the different methods
-
-cbind(example1$matSame[,1], example1$matSame[,-1]/50) # proportion of simulations returning the same case for adjusted and unadjusted models
-cbind(example1$matDiff[,1], example1$matDiff[,-1]/50) # average absolute difference between adjusted and unadjusted estimates
+cbind(example1$matR/10) # proportion of simulations returning the different cases for the different methods
 ```    
 
 
