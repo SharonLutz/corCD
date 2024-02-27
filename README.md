@@ -28,7 +28,7 @@ approaches = c("All"))
 ```
 
 ## Output
-For this scenario, we have 3 matrices output. 1 matrix returns the number of simulations returning case 1 for each approach, case 2 for each approach, case 3 for each approach, for the adjusted and unadjusted models. One matrix returns the difference in correlation of cor(X, GX[,1) when model effect sizes adjusted for covariates vs. did not adjust for covariates. One matrix returns the difference in correlation of cor(Y, GX[,1) when model effect sizes adjusted for covariates vs. did not adjust for covariates
+For this scenario, we have 3 matrices output. 1 matrix returns the number of simulations returning case 1 for each approach, case 2 for each approach, case 3 for each approach, for the adjusted and unadjusted models. One matrix returns the difference in correlation of cor(X, GX[,1]) when model effect sizes adjusted for covariates vs. did not adjust for covariates. One matrix returns the difference in correlation of cor(Y, GX[,1]) when model effect sizes adjusted for covariates vs. did not adjust for covariates
 
 ```
 example1$matR # matrix of cases returned for methods run
