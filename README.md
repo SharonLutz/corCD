@@ -5,7 +5,13 @@ The corCD R package checks the direction of causality returned when the regressi
 ## Installation
 ```
 install.packages("devtools") # devtools must be installed first
+```
+
+```
 devtools::install_github("xue-hr/MRCD") # MRCD must be installed first
+```
+Note: If the above code for installation of MRCD gives you an error and you are using a Mac, please make sure you have a GNU Fortran compiler ([GNU Fortran compiler](https://mac.r-project.org/tools/)). Homebrew can be used to install GFortran on Mac.
+```
 devtools::install_github("xue-hr/MRcML") # MRcML must be installed first
 devtools::install_github("xue-hr/BiDirectCausal") # BiDirectCausal must be installed first
 install.packages("RColorBrewer") # RColorBrewer must be installed first
