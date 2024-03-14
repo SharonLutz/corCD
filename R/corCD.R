@@ -75,7 +75,6 @@ function(n=100000, nSNPx = 10, MAFx = c(rep(0.5,  10)), nSNPy = 10, MAFy = c(rep
         matGY[,ss]<-rbinom(n,2, MAFy[ss])
       }
       
-      # ONLY ONE SET OF COV - remove
       # create Covariate matrix
       matC<-matrix(0, ncol=nCov,nrow=n)
       for(cc in 1:nCov){
